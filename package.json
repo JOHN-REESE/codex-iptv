@@ -1,0 +1,13 @@
+{
+  "name": "iptv-stream-sniffer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrape live stream URLs from webpages and export them as M3U8 playlists.",
+  "scripts": {
+    "sniff": "node scripts/scrape-live-stream.js",
+    "bili-top10": "node scripts/generate-bilibili-top10.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
